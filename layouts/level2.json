@@ -665,6 +665,12 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "name": "endGame",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": []
