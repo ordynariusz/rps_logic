@@ -63,7 +63,7 @@
       "height": 0,
       "layer": "background",
       "locked": false,
-      "name": "background",
+      "name": "main",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -94,7 +94,7 @@
       }
     },
     {
-      "name": "background",
+      "name": "main",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,

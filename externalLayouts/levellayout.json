@@ -6,13 +6,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "tekst",
       "locked": false,
       "name": "leftTxt",
       "width": 0,
       "x": 480,
       "y": 32,
-      "zOrder": 1,
+      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -21,7 +21,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "tekst",
       "locked": false,
       "name": "Levels",
       "width": 0,
@@ -36,13 +36,28 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "tekst",
       "locked": false,
       "name": "LvlText",
       "width": 0,
       "x": 96,
       "y": 32,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "background",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -59,6 +74,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.484
+    "zoomFactor": 0.244
   }
 }

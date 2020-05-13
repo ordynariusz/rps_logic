@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.rsplogic",
-    "projectFile": "C:\\Users\\D065868\\Documents\\GDevelop projects\\rps_logic\\game.json",
+    "projectFile": "C:\\Users\\Lenovo\\Documents\\GDevelop projects\\kamienPapierNozyce\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -310,6 +310,15 @@
         "kind": "image",
         "metadata": "",
         "name": "images\\main page1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\background.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -640,9 +649,9 @@
       "font": "fonts\\LuTuna FREE.otf",
       "characterSize": 90,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -659,10 +668,49 @@
       "font": "fonts\\LuTuna FREE.otf",
       "characterSize": 90,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
+    },
+    {
+      "name": "background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "images\\background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
