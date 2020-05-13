@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.rsplogic",
-    "projectFile": "C:\\Users\\Lenovo\\Documents\\GDevelop projects\\kamienPapierNozyce\\game.json",
+    "projectFile": "C:\\Users\\D065868\\Documents\\GDevelop projects\\rps_logic\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -637,6 +637,25 @@
       "variables": [],
       "behaviors": [],
       "string": "left: 0",
+      "font": "fonts\\LuTuna FREE.otf",
+      "characterSize": 90,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "LvlText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Level: 0",
       "font": "fonts\\LuTuna FREE.otf",
       "characterSize": 90,
       "color": {
