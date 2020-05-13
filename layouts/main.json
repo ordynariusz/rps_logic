@@ -111,7 +111,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\main page.png",
+                  "image": "images\\main page1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

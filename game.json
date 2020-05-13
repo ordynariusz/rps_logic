@@ -303,6 +303,15 @@
         "metadata": "",
         "name": "fonts\\LuTuna FREE.otf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/main page1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\main page1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
