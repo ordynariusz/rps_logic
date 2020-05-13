@@ -289,6 +289,20 @@
         "name": "images\\main page.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "LuTuna FREE.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "LuTuna FREE.otf",
+        "userAdded": false
+      },
+      {
+        "file": "fonts/LuTuna FREE.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\LuTuna FREE.otf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
