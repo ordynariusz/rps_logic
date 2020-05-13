@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.rsplogic",
-    "projectFile": "C:\\Users\\D065868\\Documents\\GDevelop projects\\rsp_logic\\game.json",
+    "projectFile": "C:\\Users\\Lenovo\\Documents\\GDevelop projects\\kamienPapierNozyce\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -130,15 +130,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "images/NewObject-1-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "images/NewObject-1-8.png",
         "kind": "image",
         "metadata": "",
@@ -190,6 +181,114 @@
         "name": "images\\l002-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1-10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1-10-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/scissors.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\scissors.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1-10-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1-10-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\paper.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/emptyField.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\emptyField.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/kamien.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\kamien.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/scissors1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\scissors1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1-8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1-8-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1-9-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1-9-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/kamien1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\kamien1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/main page.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\main page.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -252,7 +351,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-5.png",
+                  "image": "images\\emptyField.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -300,7 +399,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-7.png",
+                  "image": "images\\kamien.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -329,7 +428,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-7-1.png",
+                  "image": "images\\kamien1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -368,16 +467,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "NewObject-1-10",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-10.png",
+                  "image": "images\\NewObject-1-10-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -397,7 +496,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "NewObject-1-8",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -406,7 +505,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-8.png",
+                  "image": "images\\NewObject-1-8-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -454,7 +553,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-9-1.png",
+                  "image": "images\\paper.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -474,7 +573,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "NewObject-1-9",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -483,7 +582,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\NewObject-1-9.png",
+                  "image": "images\\NewObject-1-9-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
