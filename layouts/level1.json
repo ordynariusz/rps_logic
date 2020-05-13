@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level001",
-  "name": "level001",
+  "mangledName": "level1",
+  "name": "level1",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -392,39 +392,6 @@
     {
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"levelLayout\"",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -464,6 +431,12 @@
     },
     {
       "name": "rpsobjects",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "endGame",
       "visibility": true,
       "cameras": [],
       "effects": []

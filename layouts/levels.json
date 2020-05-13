@@ -220,7 +220,7 @@
           },
           "parameters": [
             "",
-            "\"level001\"",
+            "\"level1\"",
             "yes"
           ],
           "subInstructions": []
@@ -275,7 +275,7 @@
           },
           "parameters": [
             "",
-            "\"level002\"",
+            "\"level2\"",
             "yes"
           ],
           "subInstructions": []

@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.rsplogic",
-    "projectFile": "C:\\Users\\Lenovo\\Documents\\GDevelop projects\\kamienPapierNozyce\\game.json",
+    "projectFile": "C:\\Users\\D065868\\Documents\\GDevelop projects\\rps_logic\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -103,60 +103,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "images/NewObject-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-7-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-7-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-9-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-9-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "images/Levels-1.png",
         "kind": "image",
         "metadata": "",
@@ -181,33 +127,6 @@
         "name": "images\\l002-1.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-10-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-10-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/scissors.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\scissors.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -238,15 +157,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "images/scissors1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\scissors1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "images/NewObject-1-8-1.png",
         "kind": "image",
         "metadata": "",
@@ -271,22 +181,6 @@
         "name": "images\\kamien1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/main page.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\main page.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "LuTuna FREE.otf",
-        "kind": "font",
-        "metadata": "",
-        "name": "LuTuna FREE.otf",
-        "userAdded": false
       },
       {
         "file": "fonts/LuTuna FREE.otf",
@@ -348,7 +242,15 @@
         "name": "images\\paper.png",
         "smoothed": true,
         "userAdded": true
-      }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "restart-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "restart-1.png",
+		"smoothed": true,
+        "userAdded": true
     ],
     "resourceFolders": []
   },
@@ -738,6 +640,64 @@
           ]
         }
       ]
+    },
+    {
+      "name": "restart",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "restart",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "restart-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "endText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Congratulations!",
+      "font": "",
+      "characterSize": 90,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [
@@ -768,11 +728,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level001"
+      "referenceTo": "/layouts/level1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level002"
+      "referenceTo": "/layouts/level2"
     }
   ],
   "externalEvents": [
@@ -786,6 +746,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/levellayout"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/endgame"
     }
   ],
   "externalSourceFiles": []
