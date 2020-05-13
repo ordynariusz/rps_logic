@@ -51,7 +51,7 @@
       "name": "Prompt",
       "width": 0,
       "x": 256,
-      "y": 1504,
+      "y": 1696,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,9 +88,9 @@
       "font": "fonts\\LuTuna FREE.otf",
       "characterSize": 120,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
