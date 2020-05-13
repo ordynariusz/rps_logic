@@ -665,7 +665,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Congratulations!",
-      "font": "",
+      "font": "fonts\\LuTuna FREE.otf",
       "characterSize": 90,
       "color": {
         "b": 255,
