@@ -139,9 +139,43 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "firstType",
+                "leftTxt",
                 "=",
-                "VariableString(firstKills) + \" \" + ToString(Variable(firstX)) + \" \" + ToString(Variable(firstY)) + \" \" + ToString(Variable(selected))"
+                "\"Left: \" + ToString(Variable(rpsCount))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rpsCount",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "rps",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "rpsCount",
+                "+",
+                "1"
               ],
               "subInstructions": []
             }

@@ -46,12 +46,12 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "text",
       "locked": false,
       "name": "Prompt",
       "width": 0,
-      "x": 311,
-      "y": 1123,
+      "x": 256,
+      "y": 1504,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,9 +61,9 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "background",
       "locked": false,
-      "name": "NewObject",
+      "name": "background",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -86,7 +86,7 @@
       "behaviors": [],
       "string": "Press to start",
       "font": "fonts\\LuTuna FREE.otf",
-      "characterSize": 80,
+      "characterSize": 120,
       "color": {
         "b": 0,
         "g": 0,
@@ -94,7 +94,7 @@
       }
     },
     {
-      "name": "NewObject",
+      "name": "background",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -347,6 +347,18 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "name": "background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "text",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
