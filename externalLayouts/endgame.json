@@ -1,0 +1,79 @@
+{
+  "associatedLayout": "level1",
+  "name": "endGame",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 187,
+      "layer": "endGame",
+      "locked": false,
+      "name": "Levels",
+      "width": 178,
+      "x": 704,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "endGame",
+      "locked": false,
+      "name": "restart",
+      "width": 0,
+      "x": 448,
+      "y": 480,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "endGame",
+      "locked": false,
+      "name": "endText",
+      "width": 0,
+      "x": 200,
+      "y": 299,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "endGame",
+      "locked": false,
+      "name": "background",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.544
+  }
+}

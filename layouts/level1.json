@@ -392,39 +392,6 @@
     {
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"levelLayout\"",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -464,6 +431,12 @@
     },
     {
       "name": "rpsobjects",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "endGame",
       "visibility": true,
       "cameras": [],
       "effects": []
