@@ -12,7 +12,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 32,
@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.592
+    "zoomFactor": 0.448
   },
   "objectsGroups": [],
   "variables": [],
@@ -31,13 +31,133 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "rsp",
       "locked": false,
-      "name": "Levels",
+      "name": "RockField",
       "width": 0,
-      "x": 928,
-      "y": 92,
-      "zOrder": 1,
+      "x": 544,
+      "y": 576,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "PaperField",
+      "width": 0,
+      "x": 704,
+      "y": 736,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "PaperField",
+      "width": 0,
+      "x": 384,
+      "y": 736,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "ScissorsField",
+      "width": 0,
+      "x": 544,
+      "y": 896,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "ScissorsField",
+      "width": 0,
+      "x": 864,
+      "y": 896,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "ScissorsField",
+      "width": 0,
+      "x": 224,
+      "y": 896,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "PaperField",
+      "width": 0,
+      "x": 384,
+      "y": 1056,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "PaperField",
+      "width": 0,
+      "x": 704,
+      "y": 1056,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "rsp",
+      "locked": false,
+      "name": "RockField",
+      "width": 0,
+      "x": 544,
+      "y": 1216,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,6 +165,39 @@
   ],
   "objects": [],
   "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"levelLayout\"",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
     {
       "disabled": false,
       "folded": false,
@@ -71,6 +224,12 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "name": "rsp",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
