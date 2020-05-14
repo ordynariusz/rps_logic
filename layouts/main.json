@@ -61,13 +61,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "background",
+      "layer": "text",
       "locked": false,
-      "name": "main",
+      "name": "title",
       "width": 0,
-      "x": 0,
-      "y": 0,
-      "zOrder": 3,
+      "x": 256,
+      "y": 128,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -131,6 +131,25 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "title",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "   Rock\n  Paper\nScissors",
+      "font": "fonts\\LuTuna FREE.otf",
+      "characterSize": 200,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -151,6 +170,19 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"background\"",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
         {
           "type": {
             "inverted": false,

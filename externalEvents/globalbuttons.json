@@ -38,6 +38,19 @@
               },
               "parameters": [
                 "",
+                "\"background\"",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
                 "\"levelLayout\"",
                 "",
                 ""
