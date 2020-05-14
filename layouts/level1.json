@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.364
+    "zoomFactor": 0.7
   },
   "objectsGroups": [],
   "variables": [
@@ -100,8 +100,8 @@
       "locked": false,
       "name": "EmptyField",
       "width": 0,
-      "x": 288,
-      "y": 608,
+      "x": 128,
+      "y": 768,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -160,7 +160,7 @@
       "locked": false,
       "name": "EmptyField",
       "width": 0,
-      "x": 128,
+      "x": 288,
       "y": 768,
       "zOrder": 4,
       "numberProperties": [],
@@ -176,7 +176,7 @@
       "name": "EmptyField",
       "width": 0,
       "x": 288,
-      "y": 768,
+      "y": 608,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],

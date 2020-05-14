@@ -242,6 +242,69 @@
         "name": "images\\NewObject-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/emptyField-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\emptyField-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/rock-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\rock-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/rock1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\rock1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/scissors-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\scissors-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/scissors1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\scissors1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/paper-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\paper-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/paper1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\paper1-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -295,7 +358,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "emptyField",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -304,7 +367,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\emptyField.png",
+                  "image": "images\\emptyField-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -343,7 +406,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "rock",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -352,7 +415,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\rock.png",
+                  "image": "images\\rock-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -372,7 +435,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "rock1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -381,7 +444,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\rock1.png",
+                  "image": "images\\rock1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -420,7 +483,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "scissors",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -429,7 +492,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\scissors.png",
+                  "image": "images\\scissors-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -449,7 +512,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "scissors1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -458,7 +521,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\scissors1.png",
+                  "image": "images\\scissors1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -506,7 +569,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\paper.png",
+                  "image": "images\\paper-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -526,7 +589,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "paper1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -535,7 +598,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\paper1.png",
+                  "image": "images\\paper1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
