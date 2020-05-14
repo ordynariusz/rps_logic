@@ -233,6 +233,15 @@
         "name": "images\\back.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
