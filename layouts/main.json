@@ -51,7 +51,7 @@
       "name": "Prompt",
       "width": 0,
       "x": 256,
-      "y": 1696,
+      "y": 1600,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,8 +65,8 @@
       "locked": false,
       "name": "title",
       "width": 0,
-      "x": 256,
-      "y": 128,
+      "x": 192,
+      "y": 160,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,52 +100,13 @@
       "variables": [],
       "behaviors": [],
       "string": "Press to start",
-      "font": "fonts\\LuTuna FREE.otf",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 120,
       "color": {
         "b": 255,
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "name": "main",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "images\\main page1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "bold": false,
@@ -158,8 +119,8 @@
       "variables": [],
       "behaviors": [],
       "string": "   Rock\n  Paper\nScissors",
-      "font": "fonts\\LuTuna FREE.otf",
-      "characterSize": 200,
+      "font": "fonts\\baseFont.otf",
+      "characterSize": 240,
       "color": {
         "b": 255,
         "g": 255,

@@ -95,7 +95,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Choose level",
-      "font": "fonts\\LuTuna FREE.otf",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
         "b": 255,

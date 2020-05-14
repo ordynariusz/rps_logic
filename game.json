@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.rsplogic",
-    "projectFile": "C:\\Users\\Lenovo\\Documents\\GDevelop projects\\kamienPapierNozyce\\game.json",
+    "projectFile": "C:\\Users\\D065868\\Documents\\GDevelop projects\\rps_logic\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -313,6 +313,13 @@
         "metadata": "",
         "name": "images\\logo.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fonts/baseFont.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\baseFont.otf",
         "userAdded": true
       }
     ],
@@ -639,7 +646,7 @@
       "variables": [],
       "behaviors": [],
       "string": "left: 0",
-      "font": "fonts\\LuTuna FREE.otf",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
         "b": 255,
@@ -658,7 +665,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Level: 0",
-      "font": "fonts\\LuTuna FREE.otf",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
         "b": 255,
@@ -755,7 +762,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Congratulations!",
-      "font": "fonts\\LuTuna FREE.otf",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
         "b": 255,
