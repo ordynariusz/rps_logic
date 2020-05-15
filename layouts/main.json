@@ -22,9 +22,30 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.232
+    "zoomFactor": 0.352
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "mainElems",
+      "objects": [
+        {
+          "name": "Prompt"
+        },
+        {
+          "name": "paper"
+        },
+        {
+          "name": "rock"
+        },
+        {
+          "name": "scissors"
+        },
+        {
+          "name": "logo"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -35,8 +56,8 @@
       "locked": false,
       "name": "Title",
       "width": 0,
-      "x": 208,
-      "y": 398,
+      "x": 160,
+      "y": 512,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,10 +84,10 @@
       "height": 0,
       "layer": "text",
       "locked": false,
-      "name": "title",
+      "name": "scissors",
       "width": 0,
-      "x": 192,
-      "y": 160,
+      "x": 0,
+      "y": 576,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,6 +104,36 @@
       "x": 288,
       "y": 960,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "locked": false,
+      "name": "rock",
+      "width": 448,
+      "x": 0,
+      "y": 192,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "paper",
+      "width": 0,
+      "x": 0,
+      "y": 384,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,14 +162,52 @@
     {
       "bold": false,
       "italic": false,
-      "name": "title",
+      "name": "paper",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "   Rock\n  Paper\nScissors",
+      "string": "Paper",
+      "font": "fonts\\baseFont.otf",
+      "characterSize": 240,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "rock",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Rock\n",
+      "font": "fonts\\baseFont.otf",
+      "characterSize": 240,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "scissors",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Scissors",
       "font": "fonts\\baseFont.otf",
       "characterSize": 240,
       "color": {
@@ -206,6 +295,18 @@
           "parameters": [
             "",
             "\"blinker\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AlignObject::ToSceneCenter"
+          },
+          "parameters": [
+            "",
+            "mainElems",
+            ""
           ],
           "subInstructions": []
         }
