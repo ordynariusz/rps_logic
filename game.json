@@ -649,9 +649,9 @@
       "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 249,
+        "g": 249,
+        "r": 249
       }
     },
     {
@@ -668,9 +668,9 @@
       "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 249,
+        "g": 249,
+        "r": 249
       }
     },
     {
@@ -765,9 +765,9 @@
       "font": "fonts\\baseFont.otf",
       "characterSize": 90,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 249,
+        "g": 249,
+        "r": 249
       }
     }
   ],
