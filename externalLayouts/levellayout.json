@@ -10,7 +10,7 @@
       "locked": false,
       "name": "leftTxt",
       "width": 0,
-      "x": 480,
+      "x": 448,
       "y": 32,
       "zOrder": 46,
       "numberProperties": [],
@@ -25,7 +25,7 @@
       "locked": false,
       "name": "Levels",
       "width": 0,
-      "x": 896,
+      "x": 960,
       "y": 32,
       "zOrder": 20,
       "numberProperties": [],
@@ -59,6 +59,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.604
+    "zoomFactor": 0.652
   }
 }
