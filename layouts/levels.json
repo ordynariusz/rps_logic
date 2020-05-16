@@ -1136,8 +1136,7 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "conditions": [
         {
           "type": {
             "inverted": false,
@@ -1145,7 +1144,7 @@
           },
           "parameters": [
             "number",
-            "=",
+            ">",
             "110"
           ],
           "subInstructions": []
@@ -1153,29 +1152,79 @@
         {
           "type": {
             "inverted": false,
-            "value": "ChangeHeight"
+            "value": "PickNearest"
           },
           "parameters": [
             "level",
-            "=",
-            "160"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeWidth"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "160"
+            "number.X()",
+            "number.Y()",
+            ""
           ],
           "subInstructions": []
         }
       ],
-      "events": []
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "level",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "level",
+                "=",
+                "160"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeHeight"
+              },
+              "parameters": [
+                "level",
+                "=",
+                "160"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Size"
+              },
+              "parameters": [
+                "number",
+                "=",
+                "110"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "disabled": false,
@@ -1205,6 +1254,18 @@
             "level.X()",
             "level.Y()",
             ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::Size"
+          },
+          "parameters": [
+            "number",
+            "<",
+            "115"
           ],
           "subInstructions": []
         }

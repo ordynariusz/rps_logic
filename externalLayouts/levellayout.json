@@ -19,15 +19,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 90,
+      "customSize": false,
+      "height": 0,
       "layer": "plansza",
       "locked": false,
-      "name": "Levels",
-      "width": 90,
-      "x": 960,
+      "name": "LvlText",
+      "width": 0,
+      "x": 96,
       "y": 32,
-      "zOrder": 20,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -38,11 +38,11 @@
       "height": 0,
       "layer": "plansza",
       "locked": false,
-      "name": "LvlText",
+      "name": "backToLevels",
       "width": 0,
-      "x": 96,
-      "y": 32,
-      "zOrder": 21,
+      "x": 992,
+      "y": 64,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -59,6 +59,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.34
+    "zoomFactor": 0.652
   }
 }
