@@ -19,12 +19,12 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 90,
       "layer": "plansza",
       "locked": false,
       "name": "Levels",
-      "width": 0,
+      "width": 90,
       "x": 960,
       "y": 32,
       "zOrder": 20,
@@ -59,6 +59,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.652
+    "zoomFactor": 0.484
   }
 }

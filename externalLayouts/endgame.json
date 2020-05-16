@@ -4,15 +4,45 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 187,
       "layer": "endGame",
       "locked": false,
       "name": "Levels",
       "width": 178,
-      "x": 704,
-      "y": 448,
+      "x": 192,
+      "y": 992,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "endGame",
+      "locked": false,
+      "name": "endText",
+      "width": 0,
+      "x": 320,
+      "y": 320,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "endGame",
+      "locked": false,
+      "name": "nextLevel",
+      "width": 0,
+      "x": 704,
+      "y": 992,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -26,23 +56,8 @@
       "name": "restart",
       "width": 0,
       "x": 448,
-      "y": 480,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "endGame",
-      "locked": false,
-      "name": "endText",
-      "width": 0,
-      "x": 200,
-      "y": 299,
-      "zOrder": 3,
+      "y": 992,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -59,6 +74,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.544
+    "zoomFactor": 0.472
   }
 }

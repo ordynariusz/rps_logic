@@ -218,19 +218,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "restart",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisBouton"
               },
               "parameters": [
@@ -399,18 +386,6 @@
               "parameters": [
                 "",
                 "\"plansza\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "endText",
-                "=",
-                "\"You win :)\""
               ],
               "subInstructions": []
             },
@@ -648,18 +623,6 @@
                   "parameters": [
                     "",
                     "\"plansza\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "endText",
-                    "=",
-                    "\"You lost :(\""
                   ],
                   "subInstructions": []
                 },
