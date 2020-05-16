@@ -8,18 +8,18 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "background",
+      "name": "bgSprite",
       "width": 0,
-      "x": -95,
-      "y": -59,
-      "zOrder": 0,
+      "x": -128,
+      "y": -160,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "editionSettings": {
-    "grid": false,
+    "grid": true,
     "gridB": 255,
     "gridG": 180,
     "gridHeight": 32,

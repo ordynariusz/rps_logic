@@ -142,35 +142,34 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Levels",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Levels",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ]
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -218,12 +217,33 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "restart",
+                "nextLevel",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
                 "Left"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -397,6 +417,30 @@
               "parameters": [
                 "",
                 "\"endGame\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "endText",
+                "=",
+                "\"You win :)\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AlignObject::ToSceneCenter"
+              },
+              "parameters": [
+                "",
+                "endText",
+                ""
               ],
               "subInstructions": []
             }
@@ -634,6 +678,30 @@
                   "parameters": [
                     "",
                     "\"endGame\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "endText",
+                    "=",
+                    "\"You lost :(\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AlignObject::ToSceneCenter"
+                  },
+                  "parameters": [
+                    "",
+                    "endText",
+                    ""
                   ],
                   "subInstructions": []
                 }

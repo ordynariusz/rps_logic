@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.352
+    "zoomFactor": 0.37
   },
   "objectsGroups": [
     {
@@ -59,36 +59,6 @@
       "x": 160,
       "y": 512,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "locked": false,
-      "name": "Prompt",
-      "width": 0,
-      "x": 256,
-      "y": 1600,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "locked": false,
-      "name": "scissors",
-      "width": 0,
-      "x": 0,
-      "y": 576,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -134,6 +104,36 @@
       "x": 0,
       "y": 384,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Prompt",
+      "width": 0,
+      "x": 0,
+      "y": 1664,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "scissors",
+      "width": 0,
+      "x": 0,
+      "y": 608,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -453,7 +453,7 @@
         {
           "type": {
             "inverted": false,
-            "value": "SourisBouton"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
@@ -495,18 +495,6 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "name": "background",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "name": "text",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     }
   ],
