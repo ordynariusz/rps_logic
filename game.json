@@ -287,213 +287,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "icons/desktop-icon-512.png",
         "kind": "image",
         "metadata": "",
@@ -696,6 +489,24 @@
         "kind": "image",
         "metadata": "",
         "name": "icons\\ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/łapki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\łapki.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/lapki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\lapki.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -1129,7 +940,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "fonts\\baseFont.otf",
       "characterSize": 120,
       "color": {
         "b": 249,

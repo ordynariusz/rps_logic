@@ -234,7 +234,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "images\\logo.png",
+                  "image": "images\\lapki.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
