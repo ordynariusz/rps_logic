@@ -103,58 +103,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "images/Levels-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\Levels-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/l002-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\l002-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/emptyField.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\emptyField.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "fonts/LuTuna FREE.otf",
-        "kind": "font",
-        "metadata": "",
-        "name": "fonts\\LuTuna FREE.otf",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/main page1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\main page1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "images/background.png",
         "kind": "image",
         "metadata": "",
@@ -164,82 +112,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "images/rock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\rock.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/rock1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\rock1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/paper1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\paper1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/paper.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\paper.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/scissors.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\scissors.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/scissors1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\scissors1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/restart-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\restart-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "images/back.png",
         "kind": "image",
         "metadata": "",
         "name": "images\\back.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\NewObject-1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -321,24 +197,6 @@
         "metadata": "",
         "name": "fonts\\baseFont.otf",
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/back-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\back-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "images/back-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "images\\back-1-1.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
